@@ -160,6 +160,38 @@ Actividad4/
     proyecto-portafolio.png
 ```
 
+## Explicacion del codigo
+
+El archivo `index.html` contiene la estructura principal del portafolio. En este
+archivo se definieron las secciones visibles de la pagina, como el menu de
+navegacion, el inicio, la informacion personal, las habilidades, los proyectos
+y el contacto. Tambien se enlazaron los archivos externos de Bootstrap, la hoja
+de estilos personalizada y el archivo JavaScript.
+
+En la parte del menu se utilizaron clases de Bootstrap como `navbar`,
+`navbar-expand-lg`, `container` y `nav-link`. Estas clases permiten que la barra
+de navegacion sea responsiva y que se adapte correctamente cuando la pagina se
+abre desde un telefono o una pantalla pequena.
+
+Las secciones del sitio utilizan el sistema de columnas de Bootstrap con clases
+como `row`, `col-lg`, `col-md` y `col`. Esto ayuda a distribuir el contenido en
+varias columnas en pantallas grandes y acomodarlo en una sola columna en
+pantallas pequenas.
+
+El archivo `css/portafolio.css` contiene los estilos personalizados del
+proyecto. En este archivo se definieron los colores principales, el fondo de la
+seccion de inicio, el estilo de la foto de perfil, el diseno de las tarjetas,
+los espacios entre secciones y los ajustes responsivos con media queries.
+
+El archivo `js/portafolio.js` agrega una interaccion sencilla para mejorar la
+experiencia en dispositivos moviles. Cuando el menu esta abierto y se selecciona
+una opcion, el menu se cierra automaticamente para que el usuario pueda ver la
+seccion elegida sin tener que cerrarlo manualmente.
+
+Las imagenes se organizaron dentro de la carpeta `img` para mantener separado el
+contenido visual del codigo. Esto ayuda a que el proyecto tenga una estructura
+mas clara y facil de mantener.
+
 ## Capturas de pantalla
 
 ### Vista principal del portafolio
@@ -173,6 +205,24 @@ Actividad4/
 ### Proyecto de componente reutilizable
 
 <img src="img/proyecto-componente.png" alt="Captura del proyecto de componente reutilizable" width="700">
+
+## Conclusion
+
+Con esta actividad se practico el uso de una plantilla basada en Bootstrap para
+crear un portafolio personal funcional y responsivo. El proyecto permitio
+reforzar la organizacion de archivos HTML, CSS, JavaScript e imagenes, ademas
+de aplicar componentes de Bootstrap y personalizarlos de acuerdo con las
+necesidades del portafolio.
+
+Tambien se trabajo la documentacion del proyecto en GitHub mediante el archivo
+README, incluyendo la descripcion del sitio, la plantilla utilizada, el proceso
+de creacion y las capturas de pantalla. Esto es importante porque permite que
+otras personas puedan entender como fue construido el proyecto y como esta
+organizado.
+
+En conclusion, el portafolio cumple con el objetivo de presentar informacion
+personal, habilidades y proyectos en una pagina web clara, ordenada y publicada
+para su consulta en linea.
 
 ## Enlaces
 
