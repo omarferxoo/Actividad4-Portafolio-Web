@@ -75,9 +75,9 @@ Coloca manualmente las imagenes dentro de la carpeta `img` con estos nombres:
 
 - `logoportada.png`: logotipo usado en la portada del README.
 - `foto-perfil.jpg`: foto real y profesional del estudiante.
-- `proyecto-html-css.jpg`: captura del primer proyecto.
-- `proyecto-componente.jpg`: captura del segundo proyecto.
-- `proyecto-portafolio.jpg`: captura del portafolio personal.
+- `proyecto-html-css.png`: captura del primer proyecto.
+- `proyecto-componente.png`: captura del segundo proyecto.
+- `proyecto-portafolio.png`: captura del portafolio personal.
 - `captura-portafolio.png`: captura del portafolio funcionando en el navegador.
 
 ## Estructura del proyecto
