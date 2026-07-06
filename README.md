@@ -104,8 +104,8 @@ Cuando agregues la captura, se mostrara aqui:
 
 Repositorio:
 
-Pendiente de agregar.
+https://github.com/omarferxoo/Actividad4-Portafolio-Web
 
 Sitio publicado:
 
-Pendiente de agregar.
+https://omarferxoo.github.io/Actividad4-Portafolio-Web/
