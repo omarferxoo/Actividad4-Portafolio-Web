@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Omar Valencia</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/portafolio.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#menu-principal" data-bs-offset="80" tabindex="0">
+  <nav id="menu-principal" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#inicio">Omar Valencia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido" aria-controls="navbarContenido" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContenido">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="inicio" class="hero">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <p class="etiqueta">Portafolio personal</p>
+          <h1>Omar Rutilio Valencia Borja</h1>
+          <p class="lead">
+            Estudiante de Ingenieria en Sistemas Computacionales interesado en
+            el desarrollo web, la programacion y la creacion de soluciones
+            digitales utiles.
+          </p>
+          <div class="d-flex flex-wrap gap-3">
+            <a class="btn btn-primary btn-lg" href="#proyectos">Ver proyectos</a>
+            <a class="btn btn-outline-light btn-lg" href="#contacto">Contactar</a>
+          </div>
+        </div>
+        <div class="col-lg-5 text-center">
+          <img class="foto-perfil" src="img/foto-perfil.jpg" alt="Foto de perfil de Omar Valencia">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre-mi" class="seccion">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-5">
+            <p class="etiqueta">Sobre mi</p>
+            <h2>Perfil profesional</h2>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              Soy alumno del Instituto Tecnologico de Oaxaca y actualmente curso
+              la materia de Programacion Web. Este portafolio presenta mi perfil,
+              habilidades y proyectos como parte de la Actividad 4.
+            </p>
+            <p>
+              Me interesa fortalecer mis conocimientos en HTML, CSS, JavaScript,
+              bases de datos y diseno de interfaces. Mi objetivo es crear sitios
+              claros, funcionales y adaptables a diferentes dispositivos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="seccion bg-light">
+      <div class="container">
+        <div class="encabezado-seccion">
+          <p class="etiqueta">Skills</p>
+          <h2>Habilidades</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 tarjeta">
+              <div class="card-body">
+                <h3>HTML</h3>
+                <p>Estructura semantica para paginas web claras y ordenadas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 tarjeta">
+              <div class="card-body">
+                <h3>CSS y Bootstrap</h3>
+                <p>Estilos responsivos usando una plantilla basada en Bootstrap.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 tarjeta">
+              <div class="card-body">
+                <h3>JavaScript</h3>
+                <p>Interacciones basicas para mejorar la experiencia del usuario.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100 tarjeta">
+              <div class="card-body">
+                <h3>GitHub</h3>
+                <p>Organizacion de repositorios y publicacion con GitHub Pages.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="seccion">
+      <div class="container">
+        <div class="encabezado-seccion">
+          <p class="etiqueta">Trabajos</p>
+          <h2>Proyectos</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="card h-100 proyecto">
+              <img src="img/proyecto-html-css.png" class="card-img-top" alt="Captura de proyecto HTML y CSS">
+              <div class="card-body">
+                <h3>Pagina con HTML y CSS</h3>
+                <p>Practica de estructura, estilos personalizados y diseno responsivo.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="card h-100 proyecto">
+              <img src="img/proyecto-componente.png" class="card-img-top" alt="Captura de componente reutilizable">
+              <div class="card-body">
+                <h3>Componente reutilizable</h3>
+                <p>Componente interactivo desarrollado con HTML, CSS y JavaScript.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="card h-100 proyecto">
+              <img src="img/proyecto-portafolio.png" class="card-img-top" alt="Captura del portafolio personal">
+              <div class="card-body">
+                <h3>Portafolio personal</h3>
+                <p>Proyecto basado en Bootstrap para presentar informacion profesional.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="seccion contacto">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-6">
+            <p class="etiqueta">Contacto</p>
+            <h2>Datos de contacto</h2>
+            <p>Estos datos pueden actualizarse antes de publicar el repositorio.</p>
+          </div>
+          <div class="col-lg-6">
+            <ul class="lista-contacto">
+              <li><strong>Correo:</strong> omarrutiliovalenciaborja@gmail.com</li>
+              <li><strong>GitHub:</strong> github.com/usuario</li>
+              <li><strong>Ubicacion:</strong> Oaxaca, Oaxaca</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4 text-center">
+    <p class="mb-0">Actividad 4 - Portafolio personal</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/portafolio.js"></script>
+</body>
+</html>
